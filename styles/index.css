@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: lightsalmon;
+    background-color: var(--body-bg-color);
 }
 
 .Center {
@@ -19,7 +19,7 @@ body {
 }
 
 .Header {
-    background-color: #111111;
+    background-color: var(--header-bg-color);
     height: 120px;
     width: 100%;
 }
@@ -38,7 +38,7 @@ body {
     height: 500px;
     flex-direction: column;
     width: 100%;
-    color: white;
+    color: var( --text-color)
     
 }
 
@@ -65,4 +65,53 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
     margin: 15%;
     width: 100%;
     height: 50px;
+}
+/*Estilos referentes ao Sobre o site(About WebSite)*/
+.AboutWebsite{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 25px;
+    color: var(--text-color);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: solid;
+}
+.AboutWebsite-Text{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+/*Estilos referentes ao Como funciona(How-it-Works)*/
+.How-it-Works{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 25px;
+    color: var(--text-color);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: solid;
+}
+.How-it-Works-Text{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+/*Estilos referentes aos Objetivos(Objectives)*/
+.Objectives{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 25px;
+    color: var(--text-color);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: solid;
+}
+.Objectives-Text{
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
