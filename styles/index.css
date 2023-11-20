@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color: lightsalmon;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header {
+    background-color: #111111;
+    height: 120px;
+    width: 100%;
+}
+
+.Logo {
+    width: 50px;
+    height: 50px;
+}
+
+.Content {
+    flex-direction: column;
+    width: 100%;
+}
+
+.Message  {
+    height: 500px;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    
+}
+
+.Title {
+    font-size: 65px;
+    line-height: 4rem;
+}
+
+.Description {
+    padding-top: 30px;
+}
+
+
+/*FAZER UM BREAKPOINT, SE NÃO A APLICAÇÃO TODA QUEBRA
+MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
+*/
+.LearningRoads {
+    width: 100vh;
+    height: 200px;
+    border: solid;
+}
+/*Necessita de BreakPoint*/
+.RoadButton {
+    margin: 15%;
+    width: 100%;
+    height: 50px;
+}
