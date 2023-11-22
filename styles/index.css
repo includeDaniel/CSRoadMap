@@ -65,12 +65,18 @@ body {
 }
 
 .Title {
+    padding: 10px;
     font-size: 65px;
     line-height: 4rem;
+    @media screen and (max-width: 750px) {
+        font-size: 45px;
+        line-height: normal;
+     }
 }
 
 .Description {
-    padding-top: 30px;
+    padding-top: 45px;
+    padding: 10px;
 }
 
 
@@ -87,9 +93,14 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
     }
 }
 
+.MainContent {
+    padding: 15px;
+    width: 100%;
+    max-width: 1000px;
+}
 
 .LearningRoads {
-    width: 100vh;
+    width: 100%;
     height: 200px;
     border: solid white;
 }
