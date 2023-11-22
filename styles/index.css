@@ -78,10 +78,20 @@ body {
 MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 */
 
+.FooterImage {
+    width: 550px;
+    height: 500px;
+    @media screen and (max-width: 1000px) {
+       width: 100%;
+       height: 400px;
+    }
+}
+
+
 .LearningRoads {
     width: 100vh;
     height: 200px;
-    border: solid;
+    border: solid white;
 }
 /*Necessita de BreakPoint*/
 .RoadButton {
@@ -91,50 +101,67 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 }
 /*Estilos referentes ao Sobre o site(About WebSite)*/
 .AboutWebsite{
+    padding: 10px;
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 25px;
     color: var(--text-color);
     display: flex;
-    gap: 20px;
     align-items: center;
-    border: solid;
+    @media screen and (max-width: 1000px) {
+       flex-direction: column;
+    }
+}
+.AboutWebsite_Text_Title {
+    padding-bottom: 50px;
+    font-size: 40px;
 }
 .AboutWebsite-Text{
+    padding: 15px;
     display: flex;
-    flex-direction: row;
-    gap: 15px;
+    flex-direction: column;
     align-items: center;
 }
 /*Estilos referentes ao Como funciona(How-it-Works)*/
 .How-it-Works{
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 25px;
+    padding: 10px;
     color: var(--text-color);
     display: flex;
-    gap: 20px;
     align-items: center;
-    border: solid;
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+     }
 }
+
+.How-it-Works-Text-Title {
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
 .How-it-Works-Text{
+    padding: 15px;
     display: flex;
-    gap: 15px;
+    flex-direction: column;
     align-items: center;
 }
 /*Estilos referentes aos Objetivos(Objectives)*/
 .Objectives{
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 25px;
+    padding: 10px;
     color: var(--text-color);
     display: flex;
-    gap: 20px;
     align-items: center;
-    border: solid;
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+     }
 }
+.Objectives-Text-Title {
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
 .Objectives-Text{
+    padding: 15px;
     display: flex;
-    gap: 15px;
+    flex-direction: column;
     align-items: center;
 }
