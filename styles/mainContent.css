@@ -1,18 +1,31 @@
+/* ======== ROADBUTTON LAYOUT =========*/
+
+.None {
+    display: none;
+}
+
+.Grid {
+    display: grid;
+}
+
+.Flex {
+    display: flex;
+}
+
+
+
 /* ======== CARDS LAYOUT =========*/
 
 .cards {
-    width: 80%;
-
-    display: grid;
+    width: 100%;
     place-items: center;
-    margin: 5em auto;
-
+    margin: 2em 0;
     border: 5px solid white;
     border-radius: 10px;
 }
 
 .card {
-    width: 150px;
+    width: 100px;
     position: relative;
     margin: 20px;
 }
@@ -20,10 +33,10 @@
 .title {
     inset: 0;
     position: absolute;
-    transform: translate3d(0%, 90%, 0);
+    transform: translate3d(0%, 80%, 0);
     border-radius: 25px;
     width: 90%;
-    height: 60px;
+    height: 50px;
     margin: 0 auto;
 }
 
@@ -31,17 +44,16 @@
     aspect-ratio: 9/16;
     object-fit: cover;
     border-radius: 8px;
-    filter: blur(1.5px);
 }
 
 .card:hover .inner{
     transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
-    filter: blur(2.5px);
+    filter: blur(1px);
     box-shadow: 2px 32px 35px -8px rgba(0, 0, 0, 0.808);
 }
 
 .card:hover .title{
-    transform: translate3d(0%, 30%, 0); 
+    transform: translate3d(0%, 10%, 0); 
 }
 
 .inner, .title {
