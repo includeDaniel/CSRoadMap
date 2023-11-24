@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    /* fonts type */
+    --gill_sans-font: 'Gill Sans MT', sans-serif;
+    --poppins-font: 'Poppins', sans-serif;
+
+    /* colors */
+    --bgcolor: #ffebfe;
+    --contrast-color: #332C33;
+    --ligther-color: #e99be4;
+    --darker-color: #8F438C;
+}
