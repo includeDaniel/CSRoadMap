@@ -24,16 +24,16 @@ function changeTheme(type) {
     // modo dark
     if (type == 1) {
         r.style.setProperty("--bgcolor", "#332C33");
-        r.style.setProperty("--contrast-color", "#ffebfe");
-        r.style.setProperty("--ligther-color", "#8F438C");
-        r.style.setProperty("--darker-color", "#ef91ec");
+        r.style.setProperty("--contrast-color", "#fffaff");
+        r.style.setProperty("--ligther-color", "#612F74");
+        r.style.setProperty("--darker-color", "#dfa2f7");
     } else {
         // modo light
         if (type == 0) {
-            r.style.setProperty("--bgcolor", "#ffebfe");
+            r.style.setProperty("--bgcolor", "#fffaff");
             r.style.setProperty("--contrast-color", "#332C33");
-            r.style.setProperty("--ligther-color", "#ef91ec");
-            r.style.setProperty("--darker-color", "#8F438C");
+            r.style.setProperty("--ligther-color", "#dfa2f7");
+            r.style.setProperty("--darker-color", "#612F74");
         }
         // modo daltonico
         else {

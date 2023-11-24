@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/root.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/mainContent.css">
+    <link rel="stylesheet" href="styles/collapse.css">
     <title>StudyImprover</title>
 </head>
 
@@ -44,25 +45,6 @@
 
         <div class="MainContent None">
 
-            <!--           AREA DOS COLLAPSES           -->
-
-            <div class="HtmlCollapse None">
-                <div class="CollapseHeader">
-                    <button id="CloseButton">X</button>
-                </div>
-                <div class="CollapseContent">
-                    {Introduct}
-                </div>
-                <div class="CollapseFooter Center">
-                    {Sites:}
-                    {Videos:}
-                    {Exercises:}
-                </div>
-            </div>
-
-            <!--           AQUI TERMINA AREA DOS COLLAPSES           -->
-
-
             <div class="SubLearningRoads">
                 <div class="MathSubLearningRoads None">
                     <button id="SubGAAL">GAAL</button>
@@ -74,6 +56,25 @@
                     <button id="SubWebBack">Web-BackEnd</button>
                 </div>
             </div>
+
+            <!--           AREA DOS COLLAPSES           -->
+
+            <div class="ModalContainer None">
+                <form class="Modal">
+                    <div class="CollapseHeader">
+                        <button id="CloseButton">X</button>
+                    </div>
+                    <div class="CollapseContent">
+                        {Introduct}
+                    </div>
+                    <div class="CollapseFooter Center">
+                        {Sites:}
+                        {Videos:}
+                        {Exercises:}
+                    </div>
+                </form>
+            </div>
+            <!--           AQUI TERMINA AREA DOS COLLAPSES           -->
 
             <!--           AQUI COMEÇA A ÁREA DOS CARDS            -->
 
@@ -159,7 +160,7 @@
     <footer class="Footer"></footer>
     <script src="js/changeTheme.js"></script>
     <script src="js/index.js"></script>
-    <script src="js/Collapse.js"></script>
+    <script src="js/collapse.js"></script>
 </body>
 
 </html>

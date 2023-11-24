@@ -1,0 +1,48 @@
+.ModalContainer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--bgcolor);
+    align-items: center;
+    justify-content: center;
+}
+
+.Modal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 40px;
+    background-color: var(--ligther-color);
+    border-radius: 10px;
+    width: 80%;
+}
+
+.CollapseHeader {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#CloseButton {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.CollapseContent {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CollapseFooter{
+    padding-top: 20px;
+    height: max-content;
+}

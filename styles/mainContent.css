@@ -86,50 +86,6 @@
     transition: all 0.5s;
 }
 
-
-.HtmlCollapse {
-    position: absolute;
-    flex-direction: column;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 80%;
-    height: 100%;
-    background: var(--darker-color);
-    color: white;
-}
-
-.CollapseHeader {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 20px;
-}
-
-#CloseButton {
-    padding: 0;
-    width: 30px;
-    height: 30px;
-}
-
-.CollapseContent {
-    width: 100%;
-    height: max-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.CollapseFooter{
-    padding-top: 20px;
-    height: max-content;
-}
-
-
 /* ======== RESPONSIVIDADE DOS CARDS =========*/
 
 /* Extra small devices (phones, 600px and down) */
