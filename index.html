@@ -23,8 +23,7 @@
             <button id="Dark">Dark</button>
             <button id="ColorBlind">ColorBlind</button>
         </div>
-    </div>    
-    
+    </div>
 
     <div class="Content Center">
         <div class="Message Center">
@@ -44,6 +43,26 @@
         </div>
 
         <div class="MainContent None">
+
+            <!--           AREA DOS COLLAPSES           -->
+
+            <div class="HtmlCollapse None">
+                <div class="CollapseHeader">
+                    <button id="CloseButton">X</button>
+                </div>
+                <div class="CollapseContent">
+                    {Introduct}
+                </div>
+                <div class="CollapseFooter Center">
+                    {Sites:}
+                    {Videos:}
+                    {Exercises:}
+                </div>
+            </div>
+
+            <!--           AQUI TERMINA AREA DOS COLLAPSES           -->
+
+
             <div class="SubLearningRoads">
                 <div class="MathSubLearningRoads None">
                     <button id="SubGAAL">GAAL</button>
@@ -59,10 +78,8 @@
             <!--           AQUI COMEÇA A ÁREA DOS CARDS            -->
 
             <hr class="CardLine None">
-
             <div class="Cards WebFrontCards None">
-
-                <div class="Card">
+                <div id="Html" class="Card">
                     <div class="BackGroundCard">
                         <img src="images/HTMLCardWhite.jpg" alt="HTML5-Image">
                     </div>
@@ -82,7 +99,6 @@
                     </div>
                     <img src="images/JSTitleWhite.jpg" alt="JS-Title" class="TitleCard">
                 </div>
-
             </div>
             <!--           AQUI TERMINA A ÁREA DOS CARDS            -->
         </div>
@@ -143,6 +159,7 @@
     <footer class="Footer"></footer>
     <script src="js/changeTheme.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/Collapse.js"></script>
 </body>
 
 </html>
