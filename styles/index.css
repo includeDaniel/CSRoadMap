@@ -128,7 +128,6 @@ button:hover {
 
 .Message  {
     margin-top: 30px;
-    height: 65vh;
     flex-direction: column;
     width: 100%;
     color: var(--contrast-color);

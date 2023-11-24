@@ -5,5 +5,9 @@ document.getElementById("Html").onclick = () => {
 
 document.getElementById("CloseButton").onclick = () => {
     document.getElementsByClassName("HtmlCollapse")[0].classList.add("None");
-    scroll(350, 350);
+    if (window.screen.width < 400) {
+        scroll(600, 600);
+    } else {
+        scroll(350, 350);
+    }
 };

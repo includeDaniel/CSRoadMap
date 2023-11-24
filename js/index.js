@@ -4,7 +4,12 @@ var counter3 = 0;
 
 document.getElementById("Math").onclick = () => {
     if (counter1 % 2 == 0) {
-        scroll(130, 130);
+        if (window.screen.width < 400) {
+            scroll(400, 400);
+        } else {
+            scroll(130, 130);
+        }
+
         document
             .getElementsByClassName("MainContent")[0]
             .classList.remove("None");
@@ -40,7 +45,11 @@ document.getElementById("Math").onclick = () => {
 
 document.getElementById("Code").onclick = () => {
     if (counter2 % 2 == 0) {
-        scroll(130, 130);
+        if (window.screen.width < 400) {
+            scroll(400, 400);
+        } else {
+            scroll(130, 130);
+        }
         document
             .getElementsByClassName("MainContent")[0]
             .classList.remove("None");
@@ -76,7 +85,11 @@ document.getElementById("Code").onclick = () => {
 
 document.getElementById("SubWebFront").onclick = () => {
     if (counter3 % 2 == 0) {
-        scroll(350, 350);
+        if (window.screen.width < 400) {
+            scroll(600, 600);
+        } else {
+            scroll(350, 350);
+        }
         document
             .getElementsByClassName("WebFrontCards")[0]
             .classList.add("Grid");
