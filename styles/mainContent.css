@@ -2,9 +2,9 @@
 
 .MainContent{
     width: 80%;
-    margin-top: 20px;
+    margin-top: 10px;
 
-    border: 5px solid white;
+    border: 5px solid var(--darker-color);
     border-radius: 10px;
 }
 
@@ -39,6 +39,9 @@
 .CardLine {
     width: 90%;
     margin: 0 auto;
+    padding: 1px;
+    border: none;
+    background-color: var(--darker-color);
 }
 
 .Cards {

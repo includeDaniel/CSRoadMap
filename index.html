@@ -4,16 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/root.css">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/mainContent.css">
-    <title>Document</title>
+    <title>StudyImprover</title>
 </head>
 
 <body>
-    <div class="Header Center">
+    <div class="Header">
         <img class="Logo" src="images/Teste.jpg" alt="logo">
+        <button id="ChangeThemeBTM"></button>
     </div>
+    <div class="AlignThemes None">
+        <div class="LogoSpace"></div>
+        <div class="ThemesMenu Flex">
+            <h1>Theme Mode</h1>
+            <button id="Light">Light</button>
+            <button id="Dark">Dark</button>
+            <button id="ColorBlind">ColorBlind</button>
+        </div>
+    </div>    
+    
 
     <div class="Content Center">
         <div class="Message Center">
@@ -25,11 +36,11 @@
                 Estudantes da faculdade Dom Helder Camara criaram esse roadmap open-source para ajudar <br> no
                 aprendizado de quem cursa Ciência da Computação
             </span>
-        </div>
 
-        <div class="LearningRoads">
-            <button id="Math" class="RoadButton">Matemática</button>
-            <button id="Code" class="RoadButton">Programação</button>
+            <div class="LearningRoads">
+                <button id="Math" class="RoadButton">Matemática</button>
+                <button id="Code" class="RoadButton">Programação</button>
+            </div>
         </div>
 
         <div class="MainContent None">
@@ -130,6 +141,7 @@
     </section>
 
     <footer class="Footer"></footer>
+    <script src="js/changeTheme.js"></script>
     <script src="js/index.js"></script>
 </body>
 

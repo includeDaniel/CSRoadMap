@@ -31,24 +31,27 @@ img {
 /* ======== LAYOUT =========*/
 
 body {
-    background-color: var(--body-bg-color);
+    background-color: var(--bgcolor);
 }
 
 .LearningRoads {
     width: 60%;
     display: flex;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 button {
     padding: 20px;
     border-radius: 10px;
     border: none;
+    background-color: var(--ligther-color);
+    color: var(--contrast-color);
 }
 
 button:hover {
-    background-color: violet;
+    background-color: var(--darker-color);
+    color: var(--bgcolor);
 }
 
 .Center {
@@ -58,14 +61,64 @@ button:hover {
 }
 
 .Header {
-    background-color: var(--header-bg-color);
-    height: 120px;
+    background-color: var(--ligther-color);
+    height: 80px;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AlignThemes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+}
+
+.LogoSpace {
+    width: 100px;
+    height: 100px;
+}
+
+.ThemesMenu {
+    width: 100px;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--ligther-color);
+    flex-direction: column;
+}
+
+.ThemesMenu > button{
+    padding: 10px;
+    margin: 5px;
+}
+
+.ThemesMenu > h1{
+    width: 80%;
+    margin: 0 auto;
+    font-size: small;
+    text-align: center;
+    color: var(--contrast-color);
+    font-family: var(--poppins-font);
+}
+
+#ChangeThemeBTM {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background:url(../images/LuaIcone.png);
+    background-size: cover;
+}
+
+#ChangeThemeBTM:hover{
+    background:url(../images/LuaIcone.png);
+    background-size: cover;
 }
 
 .Logo {
     width: 50px;
     height: 50px;
+    border-radius: 5px;
 }
 
 .Content {
@@ -74,18 +127,18 @@ button:hover {
 }
 
 .Message  {
-    padding-top: 50px;
-    height: 500px;
+    margin-top: 30px;
+    height: 65vh;
     flex-direction: column;
     width: 100%;
-    color: var( --text-color)
-    
+    color: var(--contrast-color);
 }
 
 .Title {
     padding: 10px;
     font-size: 65px;
     line-height: 4rem;
+    font-family: var(--gill_sans-font);
     @media screen and (max-width: 750px) {
         font-size: 45px;
         line-height: normal;
@@ -93,8 +146,8 @@ button:hover {
 }
 
 .Description {
-    padding-top: 45px;
     padding: 10px;
+    font-family: var(--poppins-font);
 }
 
 
@@ -114,7 +167,6 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 .AboutWebsite{
     padding: 10px;
     margin-top: 130px;
-    color: var(--text-color);
     display: flex;
     align-items: center;
     @media screen and (max-width: 1000px) {
@@ -124,18 +176,20 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 .AboutWebsite_Text_Title {
     padding-bottom: 50px;
     font-size: 40px;
+    font-family: var(--gill_sans-font);
 }
 .AboutWebsite-Text{
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--contrast-color);
+    font-family: var(--poppins-font);
 }
 /*Estilos referentes ao Como funciona(How-it-Works)*/
 .How-it-Works{
     margin-top: 50px;
     padding: 10px;
-    color: var(--text-color);
     display: flex;
     align-items: center;
     @media screen and (max-width: 1000px) {
@@ -146,6 +200,7 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 .How-it-Works-Text-Title {
     padding-bottom: 50px;
     font-size: 40px;
+    font-family: var(--gill_sans-font);
 }
 
 .How-it-Works-Text{
@@ -153,12 +208,13 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--contrast-color);
+    font-family: var(--poppins-font);
 }
 /*Estilos referentes aos Objetivos(Objectives)*/
 .Objectives{
     margin-top: 50px;
     padding: 10px;
-    color: var(--text-color);
     display: flex;
     align-items: center;
     @media screen and (max-width: 1000px) {
@@ -168,6 +224,7 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 .Objectives-Text-Title {
     padding-bottom: 50px;
     font-size: 40px;
+    font-family: var(--gill_sans-font);
 }
 
 .Objectives-Text{
@@ -175,4 +232,6 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--contrast-color);
+    font-family: var(--poppins-font);
 }
