@@ -1,3 +1,13 @@
+/* ======== MAIN CONTENT LAYOUT =========*/
+
+.MainContent{
+    width: 80%;
+    margin-top: 20px;
+
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
 /* ======== ROADBUTTON LAYOUT =========*/
 
 .None {
@@ -12,25 +22,38 @@
     display: flex;
 }
 
+/* ======== SUBLEARNINGROADS LAYOUT =========*/
 
+.SubLearningRoads{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.SubLearningRoads button {
+    margin: 30px 10px;
+}
 
 /* ======== CARDS LAYOUT =========*/
 
-.cards {
+.CardLine {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Cards {
     width: 100%;
     place-items: center;
     margin: 2em 0;
-    border: 5px solid white;
-    border-radius: 10px;
 }
 
-.card {
+.Card {
     width: 100px;
     position: relative;
     margin: 20px;
 }
 
-.title {
+.TitleCard {
     inset: 0;
     position: absolute;
     transform: translate3d(0%, 80%, 0);
@@ -40,23 +63,23 @@
     margin: 0 auto;
 }
 
-.inner img {
+.BackGroundCard img {
     aspect-ratio: 9/16;
     object-fit: cover;
     border-radius: 8px;
 }
 
-.card:hover .inner{
+.Card:hover .BackGroundCard{
     transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
     filter: blur(1px);
     box-shadow: 2px 32px 35px -8px rgba(0, 0, 0, 0.808);
 }
 
-.card:hover .title{
+.Card:hover .TitleCard{
     transform: translate3d(0%, 10%, 0); 
 }
 
-.inner, .title {
+.BackGroundCard, .TitleCard {
     transition: all 0.5s;
 }
 
@@ -64,42 +87,42 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .cards {
+    .Cards {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .cards {
+    .Cards {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .cards {
+    .Cards {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .cards {
+    .Cards {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .cards {
+    .Cards {
         grid-template-columns: repeat(5, 1fr);
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1450px and up) */
 @media only screen and (min-width: 1450px) {
-    .cards {
+    .Cards {
         grid-template-columns: repeat(6, 1fr);
     }
 }
