@@ -26,6 +26,7 @@ a {
 
 img {
     width: 100%;
+    border-radius: 5px;
 }
 
 /* ======== LAYOUT =========*/
@@ -38,7 +39,7 @@ body {
     width: 60%;
     display: flex;
     justify-content: space-around;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 button {
@@ -127,7 +128,7 @@ button:hover {
 }
 
 .Message  {
-    margin-top: 30px;
+    margin-top: 4em;
     flex-direction: column;
     width: 100%;
     color: var(--contrast-color);
@@ -138,7 +139,7 @@ button:hover {
     font-size: 65px;
     line-height: 4rem;
     font-family: var(--gill_sans-font);
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 790px) {
         font-size: 45px;
         line-height: normal;
      }
@@ -165,7 +166,7 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 /*Estilos referentes ao Sobre o site(About WebSite)*/
 .AboutWebsite{
     padding: 10px;
-    margin-top: 130px;
+    margin-top: 110px;
     display: flex;
     align-items: center;
     @media screen and (max-width: 1000px) {
