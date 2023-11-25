@@ -1,0 +1,28 @@
+.Footer{
+    background-color: var(--ligther-color);
+    color: var(--contrast-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+.ImgProfiles{
+    display: flex;
+    gap: 15px;
+}
+.Info-page-title{
+    font-family: var(--gill_sans-font);
+}
+.Info-page-text{
+    font-family: var(--poppins-font);
+}
+footer div img{
+    border-radius: 50%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: var(--darker-color);
+}
