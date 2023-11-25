@@ -39,9 +39,10 @@
 .CardLine {
     width: 90%;
     margin: 0 auto;
-    padding: 1px;
+    padding: 2px;
     border: none;
     background-color: var(--darker-color);
+    border-radius: 10px;
 }
 
 .Cards {
