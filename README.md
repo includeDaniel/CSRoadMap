@@ -1,2 +1,2 @@
-# StudyImprover
-An application that improves the study of Computer Science students.
+# CSRoadMap
+An open-source roadmap developed by students with the goal of helping computer science students improve their knowledge.
