@@ -80,7 +80,11 @@ document.getElementById("Code").onclick = () => {
             "var(--ligther-color)";
         document.getElementById("Code").style.color = "var(--contrast-color)";
         counter2++;
-        scroll(0, 0);
+        if (window.screen.width < 400) {
+            scroll(130, 130);
+        } else {
+            scroll(0, 0);
+        }
     }
 };
 
@@ -110,6 +114,10 @@ document.getElementById("SubWebFront").onclick = () => {
         document.getElementById("SubWebFront").style.color =
             "var(--contrast-color)";
         counter3++;
-        scroll(130, 130);
+        if (window.screen.width < 400) {
+            scroll(400, 400);
+        } else {
+            scroll(130, 130);
+        }
     }
 };
