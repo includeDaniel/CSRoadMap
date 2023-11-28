@@ -80,6 +80,7 @@ document.getElementById("Code").onclick = () => {
             "var(--ligther-color)";
         document.getElementById("Code").style.color = "var(--contrast-color)";
         counter2++;
+        scroll(0, 0);
     }
 };
 
@@ -109,5 +110,6 @@ document.getElementById("SubWebFront").onclick = () => {
         document.getElementById("SubWebFront").style.color =
             "var(--contrast-color)";
         counter3++;
+        scroll(130, 130);
     }
 };

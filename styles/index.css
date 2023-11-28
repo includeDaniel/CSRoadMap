@@ -166,11 +166,12 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 /*Estilos referentes ao Sobre o site(About WebSite)*/
 .AboutWebsite{
     padding: 10px;
-    margin-top: 120px;
+    margin-top: 150px;
     display: flex;
     align-items: center;
     @media screen and (max-width: 1000px) {
        flex-direction: column;
+       margin-top: 300px;
     }
 }
 .AboutWebsite_Text_Title {
@@ -188,7 +189,7 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 }
 /*Estilos referentes ao Como funciona(How-it-Works)*/
 .How-it-Works{
-    margin-top: 50px;
+    margin-top: 150px;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -213,7 +214,7 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 }
 /*Estilos referentes aos Objetivos(Objectives)*/
 .Objectives{
-    margin-top: 50px;
+    margin-top: 150px;
     padding: 10px;
     display: flex;
     align-items: center;
