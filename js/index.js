@@ -1,6 +1,7 @@
 var counter1 = 0;
 var counter2 = 0;
 var counter3 = 0;
+var counter4 = 0;
 
 document.getElementById("Math").onclick = () => {
     if (counter1 % 2 == 0) {
@@ -98,11 +99,13 @@ document.getElementById("SubWebFront").onclick = () => {
         document
             .getElementsByClassName("WebFrontCards")[0]
             .classList.add("Grid");
+        document
+            .getElementsByClassName("WebBackCards")[0]
+            .classList.add("None");
         document.getElementsByClassName("CardLine")[0].classList.remove("None");
         document.getElementById("SubWebFront").style.backgroundColor =
             "var(--darker-color)";
         document.getElementById("SubWebFront").style.color = "var(--bgcolor)";
-
         counter3++;
     } else {
         document
@@ -114,6 +117,39 @@ document.getElementById("SubWebFront").onclick = () => {
         document.getElementById("SubWebFront").style.color =
             "var(--contrast-color)";
         counter3++;
+        if (window.screen.width < 400) {
+            scroll(400, 400);
+        } else {
+            scroll(130, 130);
+        }
+    }
+};
+document.getElementById("SubWebBack").onclick = () => {
+    if (counter4 % 2 == 0) {
+        if (window.screen.width < 400) {
+            scroll(600, 600);
+        } else {
+            scroll(350, 350);
+        }
+        document
+            .getElementsByClassName("WebBackCards")[0]
+            .classList.add("Grid");
+        document.getElementsByClassName("CardLine")[0].classList.remove("None");
+        document.getElementById("SubWebBack").style.backgroundColor =
+            "var(--darker-color)";
+        document.getElementById("SubWebBack").style.color = "var(--bgcolor)";
+
+        counter4++;
+    } else {
+        document
+            .getElementsByClassName("WebBackCards")[0]
+            .classList.remove("Grid");
+        document.getElementsByClassName("CardLine")[0].classList.add("None");
+        document.getElementById("SubWebBack").style.backgroundColor =
+            "var(--ligther-color)";
+        document.getElementById("SubWebBack").style.color =
+            "var(--contrast-color)";
+        counter4++;
         if (window.screen.width < 400) {
             scroll(400, 400);
         } else {
