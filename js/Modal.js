@@ -10,11 +10,19 @@ const showMOdal = (Card, Modal) => {
         document.body.style.overflow = "visible";
     };
 };
-
+//FRONT
 showMOdal("Html", "HTML");
 showMOdal("Css", "CSS");
 showMOdal("Js", "JS");
+showMOdal("React", "REACT");
+
+//BACK
 showMOdal("Phyton", "PHYTON");
 showMOdal("Java", "JAVA");
 showMOdal("c", "C");
 showMOdal("Php", "PHP");
+
+//MATH
+showMOdal("Gaal", "GAAL");
+showMOdal("Discreta", "DISCRETA");
+showMOdal("c1", "C1");

@@ -158,7 +158,7 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 .FooterImage {
     width: 550px;
     height: 500px;
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1000px) { 
        width: 100%;
        height: 400px;
     }
