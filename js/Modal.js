@@ -14,4 +14,7 @@ const showMOdal = (Card, Modal) => {
 showMOdal("Html", "HTML");
 showMOdal("Css", "CSS");
 showMOdal("Js", "JS");
-showMOdal("React", "REACT");
+showMOdal("Phyton", "PHYTON");
+showMOdal("Java", "JAVA");
+showMOdal("c", "C");
+showMOdal("Php", "PHP");
