@@ -166,7 +166,7 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
 /*Estilos referentes ao Sobre o site(About WebSite)*/
 .AboutWebsite{
     padding: 10px;
-    margin-top: 150px;
+    margin-top: 300px;
     display: flex;
     align-items: center;
     @media screen and (max-width: 1000px) {
