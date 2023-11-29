@@ -61,12 +61,12 @@
                 </div>
             </div>
 
-            <!--           AREA DOS COLLAPSES           -->
+            <!--           AREA DOS MODAIS          -->
 
-            <div class="ModalContainer None">
+            <div class="ModalContainer HTML None">
                 <div class="Modal">
                     <div class="CollapseHeader">
-                        <button id="CloseButton">X</button>
+                        <button id="HtmlCloseButton">X</button>
                     </div>
                     <div class="CollapseContent">
                         {Introduct}
@@ -78,7 +78,55 @@
                     </div>
                 </div>
             </div>
-            <!--           AQUI TERMINA AREA DOS COLLAPSES           -->
+
+            <div class="ModalContainer CSS None">
+                <div class="Modal">
+                    <div class="CollapseHeader">
+                        <button id="CssCloseButton">X</button>
+                    </div>
+                    <div class="CollapseContent">
+                        {Introduct}
+                    </div>
+                    <div class="CollapseFooter Center">
+                        {Sites:}
+                        {Videos:}
+                        {Exercises:}
+                    </div>
+                </div>
+            </div>
+
+            <div class="ModalContainer JS None">
+                <div class="Modal">
+                    <div class="CollapseHeader">
+                        <button id="JsCloseButton">X</button>
+                    </div>
+                    <div class="CollapseContent">
+                        {Introduct}
+                    </div>
+                    <div class="CollapseFooter Center">
+                        {Sites:}
+                        {Videos:}
+                        {Exercises:}
+                    </div>
+                </div>
+            </div>
+
+            <div class="ModalContainer REACT None">
+                <div class="Modal">
+                    <div class="CollapseHeader">
+                        <button id="ReactCloseButton">X</button>
+                    </div>
+                    <div class="CollapseContent">
+                        {Introduct}
+                    </div>
+                    <div class="CollapseFooter Center">
+                        {Sites:}
+                        {Videos:}
+                        {Exercises:}
+                    </div>
+                </div>
+            </div>
+            <!--           AQUI TERMINA AREA DOS MODAIS           -->
 
             <!--           AQUI COMEÇA A ÁREA DOS CARDS            -->
             <!--           WEB CARDS            -->
@@ -92,20 +140,20 @@
                     <img src="images/White/HTMLTitleBlack.jpg" alt="HTML5-Title" class="TitleCard">
                 </div>
 
-                <div class="Card">
+                <div id="Css" class="Card">
                     <div class="BackGroundCard">
                         <img src="images/White/CSSCardBlack.jpg" alt="CSS-Image">
                     </div>
                     <img src="images/White/CSSTitleBlack.jpg" alt="CSS-Title" class="TitleCard">
                 </div>
 
-                <div class="Card">
+                <div id="Js" class="Card">
                     <div class="BackGroundCard">
                         <img src="images/White/JSCardBlack.jpg" alt="JS-Image">
                     </div>
                     <img src="images/White/JSTitleBlack.jpg" alt="JS-Title" class="TitleCard">
                 </div>
-                <div class="Card">
+                <div id="React" class="Card">
                     <div class="BackGroundCard">
                         <img src="images/Dark/REACTCardBlack.png" alt="REACT-Image">
                     </div>
@@ -240,7 +288,7 @@
     </footer>
     <script src="js/changeTheme.js"></script>
     <script src="js/index.js"></script>
-    <script src="js/collapse.js"></script>
+    <script src="js/Modal.js"></script>
 </body>
 
 </html>
