@@ -20,7 +20,7 @@ Intermediários: Para estudantes com alguma experiência, utilize o roadmap para
 
 Avançados: Este roadmap também é valioso para estudantes avançados, oferecendo orientações sobre tópicos mais especializados e avançados, bem como recursos para se manterem atualizados com as últimas tendências e pesquisas.
 
+Lembre-se, este roadmap é uma ferramenta flexível e adaptável. Sinta-se à vontade para personalizá-lo de acordo com seus objetivos e interesses pessoais. Boa jornada na construção do seu caminho na ciência da computação!
+
 ## Como executar
 Para executar a apliacação do trabalho basta clona-lo em sua maquina e abrir o arquivo index.html
-
-Lembre-se, este roadmap é uma ferramenta flexível e adaptável. Sinta-se à vontade para personalizá-lo de acordo com seus objetivos e interesses pessoais. Boa jornada na construção do seu caminho na ciência da computação!
