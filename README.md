@@ -1,4 +1,4 @@
-# CSRoadMap O RoadMap para Cientistas da Computação em Formação
+# O RoadMap para Cientistas da Computação em Formação
 Bem-vindo ao RoadMap para Estudantes de Ciência da Computação, um projeto open-source dedicado a orientar estudantes por meio de sua jornada acadêmica e profissional na área de ciência da computação. Este roadmap abrange uma ampla gama de tópicos, desde os fundamentos da programação até áreas avançadas de pesquisa, proporcionando um guia abrangente para aqueles que desejam explorar e aprimorar suas habilidades nesta emocionante disciplina.
 
 ## Objetivo
