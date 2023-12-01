@@ -39,15 +39,16 @@ body {
     width: 70%;
     display: flex;
     justify-content: space-around;
-    margin: 30px auto;
+    margin-top: 10vh;
 }
 
 button {
-    padding: 20px;
-    border-radius: 10px;
+    padding: 25px 30px;
+    border-radius: 15px;
     border: none;
     background-color: var(--ligther-color);
     color: var(--contrast-color);
+    font-weight: bold;
 }
 
 button:hover {
@@ -82,6 +83,7 @@ button:hover {
     height: 100px;
 }
 
+
 .ThemesMenu {
     width: 100px;
     border-radius: 0 0 10px 10px;
@@ -106,6 +108,7 @@ button:hover {
 #ChangeThemeBTM {
     width: 50px;
     height: 50px;
+    padding: 20px;
     border-radius: 5px;
     background:url(../images/LuaIcone.png);
     background-size: cover;
@@ -128,10 +131,10 @@ button:hover {
 }
 
 .Message  {
-    margin-top: 3rem;
     flex-direction: column;
     width: 100%;
     color: var(--contrast-color);
+    height: 80vh;
 }
 
 .Title {
@@ -235,4 +238,22 @@ MUDAR A DIV PARA QUANDO A TELA FOR MENOR QUE 909PX
     align-items: center;
     color: var(--contrast-color);
     font-family: var(--poppins-font);
+}
+
+/* Animações */
+
+.Animate {
+    animation: Down .5s;
+}
+
+@keyframes Down {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }

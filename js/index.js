@@ -8,7 +8,7 @@ var TesteCounter2;
 document.getElementById("Math").onclick = () => {
     if (counter1 % 2 == 0) {
         if (window.screen.width < 400) {
-            scroll(400, 400);
+            scroll(500, 500);
         } else {
             scroll(130, 130);
         }
@@ -60,6 +60,11 @@ document.getElementById("Math").onclick = () => {
             "var(--ligther-color)";
         document.getElementById("Math").style.color = "var(--contrast-color)";
         counter1++;
+        if (window.screen.width < 400) {
+            scroll(130, 130);
+        } else {
+            scroll(0, 0);
+        }
     }
 };
 
