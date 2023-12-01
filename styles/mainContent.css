@@ -89,6 +89,13 @@
 }
 
 /* ======== RESPONSIVIDADE DOS CARDS =========*/
+/* Extra small devices (phones, 360px and down) */
+@media only screen and (max-width: 360px) {
+    .Cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
