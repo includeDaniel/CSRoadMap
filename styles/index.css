@@ -39,12 +39,12 @@ body {
     width: 70%;
     display: flex;
     justify-content: space-around;
-    margin-top: 10vh;
+    margin: 30px auto;
 }
 
 button {
-    padding: 25px 30px;
-    border-radius: 15px;
+    padding: 20px;
+    border-radius: 10px;
     border: none;
     background-color: var(--ligther-color);
     color: var(--contrast-color);
@@ -125,7 +125,7 @@ button:hover {
     border-radius: 5px;
 }
 
-.Content {
+.Content {  
     flex-direction: column;
     width: 100%;
 }
@@ -134,7 +134,7 @@ button:hover {
     flex-direction: column;
     width: 100%;
     color: var(--contrast-color);
-    height: 80vh;
+    margin-top: 3rem;
 }
 
 .Title {
