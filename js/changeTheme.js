@@ -18,6 +18,8 @@ var javacard = document.getElementById("JavaCard")
 var javatitle = document.getElementById("JavaTitle")
 var phpcard = document.getElementById("PHPCard")
 var phptitle = document.getElementById("PHPTitle")
+var cmaismaiscard = document.getElementById("C++Card")
+var cmaismaistitle = document.getElementById("C++Title")
 // Math
 var gaalcard = document.getElementById("GAALCard")
 var gaaltitle = document.getElementById("GAALTitle")
@@ -60,9 +62,7 @@ function changeTheme(type) {
         csscard.src="images/Dark/CSSCardWhite.jpg"
         csstitle.src="images/Dark/CSSTitleWhite.jpg"
         jscard[0].src="images/Dark/JSCardWhite.jpg"
-        jscard[1].src="images/Dark/JSCardWhite.jpg"
         jstitle[0].src="images/Dark/JSTitleWhite.jpg"
-        jstitle[1].src="images/Dark/JSTitleWhite.jpg"
         reactcard.src="images/Dark/ReactCardWhite.jpg"
         reacttitle.src="images/Dark/ReactTitleWhite.jpg"
         // Back
@@ -72,6 +72,8 @@ function changeTheme(type) {
         javatitle.src="images/Dark/JavaTitleWhite.jpg"
         phpcard.src="images/Dark/PHPCardWhite.jpg"
         phptitle.src="images/Dark/PHPTitleWhite.jpg"
+        cmaismaiscard.src="images/Dark/C++CardWhite.jpg"
+        cmaismaistitle.src="images/Dark/C++TitleWhite.jpg"
         // Math
         gaalcard.src="images/Dark/GaalCardWhite.jpg"
         gaaltitle.src="images/Dark/GaalTitleWhite.jpg"
@@ -94,9 +96,7 @@ function changeTheme(type) {
             csscard.src="images/White/CSSCardBlack.jpg"
             csstitle.src="images/White/CSSTitleBlack.jpg"
             jscard[0].src="images/White/JSCardBlack.jpg"
-            jscard[1].src="images/White/JSCardBlack.jpg"
             jstitle[0].src="images/White/JSTitleBlack.jpg"
-            jstitle[1].src="images/White/JSTitleBlack.jpg"
             reactcard.src="images/White/ReactCardBlack.jpg"
             reacttitle.src="images/White/ReactTitleBlack.jpg"
             // Back
@@ -106,6 +106,8 @@ function changeTheme(type) {
             javatitle.src="images/White/JavaTitleBlack.jpg"
             phpcard.src="images/White/PHPCardBlack.jpg"
             phptitle.src="images/White/PHPTitleBlack.jpg"
+            cmaismaiscard.src="images/White/C++CardBlack.jpg"
+            cmaismaistitle.src="images/White/C++TitleBlack.png"
             // Math
             gaalcard.src="images/White/GaalCardBlack.jpg"
             gaaltitle.src="images/White/GaalTitleBlack.jpg"
@@ -131,9 +133,7 @@ function changeTheme(type) {
             csscard.src="images/ColorBlind/CSSCardCB.jpg"
             csstitle.src="images/ColorBlind/CSSTitleCB.jpg"
             jscard[0].src="images/ColorBlind/JSCardCB.jpg"
-            jscard[1].src="images/ColorBlind/JSCardCB.jpg"
             jstitle[0].src="images/ColorBlind/JSTitleCB.jpg"
-            jstitle[1].src="images/ColorBlind/JSTitleCB.jpg"
             reactcard.src="images/ColorBlind/ReactCardCB.jpg"
             reacttitle.src="images/ColorBlind/ReactTitleCB.jpg"
             // Back
@@ -143,6 +143,8 @@ function changeTheme(type) {
             javatitle.src="images/ColorBlind/JavaTitleCB.jpg"
             phpcard.src="images/ColorBlind/PHPCardCB.jpg"
             phptitle.src="images/ColorBlind/PHPTitleCB.jpg"
+            cmaismaiscard.src="images/ColorBlind/C++CardCB.jpg"
+            cmaismaistitle.src="images/ColorBlind/C++TitleCB.png"
             // Math
             gaalcard.src="images/ColorBlind/GaalCardCB.jpg"
             gaaltitle.src="images/ColorBlind/GaalTitleCB.jpg"
