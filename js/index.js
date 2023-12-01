@@ -141,7 +141,6 @@ document.getElementById("SubWebFront").onclick = () => {
             "var(--ligther-color)";
         document.getElementById("SubWebBack").style.color =
             "var(--contrast-color)";
-        console.log(counter3);
         counter3++;
     } else {
         document
@@ -158,7 +157,6 @@ document.getElementById("SubWebFront").onclick = () => {
             "var(--ligther-color)";
         document.getElementById("SubWebFront").style.color =
             "var(--contrast-color)";
-        console.log(counter3);
         counter3++;
 
         if (window.screen.width < 400) {
@@ -192,7 +190,6 @@ document.getElementById("SubWebBack").onclick = () => {
             "var(--ligther-color)";
         document.getElementById("SubWebFront").style.color =
             "var(--contrast-color)";
-        console.log(counter4);
         counter4++;
         TesteCounter2 = counter3;
     } else {
@@ -210,8 +207,6 @@ document.getElementById("SubWebBack").onclick = () => {
             "var(--ligther-color)";
         document.getElementById("SubWebBack").style.color =
             "var(--contrast-color)";
-        console.log(counter4);
-
         counter4++;
 
         if (window.screen.width < 400) {
