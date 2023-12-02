@@ -18,8 +18,8 @@ var javacard = document.getElementById("JavaCard")
 var javatitle = document.getElementById("JavaTitle")
 var phpcard = document.getElementById("PHPCard")
 var phptitle = document.getElementById("PHPTitle")
-var cmaismaiscard = document.getElementById("C++Card")
-var cmaismaistitle = document.getElementById("C++Title")
+var ccard = document.getElementById("CCard")
+var ctitle = document.getElementById("CTitle")
 // Math
 var gaalcard = document.getElementById("GAALCard")
 var gaaltitle = document.getElementById("GAALTitle")
@@ -72,8 +72,8 @@ function changeTheme(type) {
         javatitle.src="images/Dark/JavaTitleWhite.jpg"
         phpcard.src="images/Dark/PHPCardWhite.jpg"
         phptitle.src="images/Dark/PHPTitleWhite.jpg"
-        cmaismaiscard.src="images/Dark/C++CardWhite.jpg"
-        cmaismaistitle.src="images/Dark/C++TitleWhite.jpg"
+        ccard.src="images/Dark/CCardWhite.jpg"
+        ctitle.src="images/Dark/CTitleWhite.jpg"
         // Math
         gaalcard.src="images/Dark/GaalCardWhite.jpg"
         gaaltitle.src="images/Dark/GaalTitleWhite.jpg"
@@ -106,8 +106,8 @@ function changeTheme(type) {
             javatitle.src="images/White/JavaTitleBlack.jpg"
             phpcard.src="images/White/PHPCardBlack.jpg"
             phptitle.src="images/White/PHPTitleBlack.jpg"
-            cmaismaiscard.src="images/White/C++CardBlack.jpg"
-            cmaismaistitle.src="images/White/C++TitleBlack.png"
+            ccard.src="images/White/CCardBlack.jpg"
+            ctitle.src="images/White/CTitleBlack.jpg"
             // Math
             gaalcard.src="images/White/GaalCardBlack.jpg"
             gaaltitle.src="images/White/GaalTitleBlack.jpg"
@@ -143,8 +143,8 @@ function changeTheme(type) {
             javatitle.src="images/ColorBlind/JavaTitleCB.jpg"
             phpcard.src="images/ColorBlind/PHPCardCB.jpg"
             phptitle.src="images/ColorBlind/PHPTitleCB.jpg"
-            cmaismaiscard.src="images/ColorBlind/C++CardCB.jpg"
-            cmaismaistitle.src="images/ColorBlind/C++TitleCB.png"
+            ccard.src="images/ColorBlind/CCardCB.jpg"
+            ctitle.src="images/ColorBlind/CTitleCB.jpg"
             // Math
             gaalcard.src="images/ColorBlind/GaalCardCB.jpg"
             gaaltitle.src="images/ColorBlind/GaalTitleCB.jpg"
